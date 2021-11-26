@@ -1,0 +1,14 @@
+/* 
+Comentario en CSS
+Regla CSS consta de dos partes
+1) el selector
+2) Bloque de declaraciones: {
+    atributo: valor;
+  atributo-de-mas-dos-palabras: otro-valor;
+}
+*/
+
+h1 {
+    color: orangered;
+    background-color: skyblue;
+}
