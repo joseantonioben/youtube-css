@@ -8,7 +8,16 @@ Regla CSS consta de dos partes
 }
 */
 
+/* Son mala práctica porque son bloqueantes a la hora de que el navegador lea esta instrucción */
+/* @import url("otro-hoja.css"); */
+
 h1 {
     color: orangered;
-    background-color: skyblue;
+    background-color: black;
 }
+
+/* Selectores Básicos
+  1) Etiquetas - elementos html
+  2) Identificadores - atributo id - #
+  3) Clases - atributo clase - .
+*/
