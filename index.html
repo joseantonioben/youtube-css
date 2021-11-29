@@ -7,27 +7,63 @@
     <title>Curso de CSS</title>
     <link rel="stylesheet" href="css/style.css">
     <style>
-        h1 {
+      html {
+        scroll-behavior: smooth;
+      }
+      h1 {
             color: yellowgreen;
-        }
+      }
     </style>
 </head>
 <body>
+  <article id="temario-css">
     <h1>Aprendiendo CSS</h1>
     <p><i style="font-weight: bold; color: orangered;">Cascading Style Sheets</i> - Hojas de Estilo en Cascada</p>
-    <h2 id="temario-css">Temario del Curso</h2>
+    <h2>Temario del Curso</h2>
     <ul>
       <li><a href="index.html#selectores-basicos">Selectores básicos</a></li>
-      <li><a href=""></a></li>
+      <li><a href="index.html#selectores-avanzados">Selectores avanzados</a></li>
     </ul>
-    <hr>
-    <article id="selectores-basicos">
+  </article>
+
+  <hr>
+  <article id="selectores-basicos">
       <h2>Selectores Básicos</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, non autem aliquid dolorum odit atque quo, vero eos aperiam quidem est iusto aut temporibus sequi quos doloribus itaque rem vitae!</p>
       <p id="parrafo-dos">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum laborum illum officia aliquam reiciendis optio doloremque quam sequi corporis hic dolor, voluptate deserunt, natus ab a repudiandae eligendi magnam vel.
       </p>
+      <p class="text-32 bg-skyblue">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga sunt id dolorem temporibus, iusto delectus cupiditate? Modi, ullam, sapiente voluptas magni dolorum minima nobis reprehenderit ducimus maiores officiis quis molestias?
+      </p>
+      <p class="text-20 bg-steelblue text-white">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti vitae atque similique saepe hic laborum. Beatae quibusdam quod, corporis doloremque pariatur laborum id sunt repudiandae consequuntur? Soluta, vero nisi.
+      </p>
+      <p class="text-32 bg-steelblue text-white">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore omnis eveniet tempore cum nostrum, sequi necessitatibus ratione, dolores, quia laudantium magni! Cum voluptas voluptatibus deleniti dolores ducimus sint assumenda exercitationem.
+      </p>
       <a href="index.html#temario-css">☝️</a>
-    </article>
+  </article>
+  <hr>
+  <article id="selectores-avanzados">
+    <h2>Selectores Avanzados</h2>
+    <h3>Selectores de hijos</h3>
+    <h4>Selector de hijos directos</h4>
+    <ul class="hijos-directos">
+      <li><b>Primavera</b></li>
+      <li><b>Verano</b></li>
+      <li><b>Otoño</b></li>
+      <li><b>Invierno</b></li>
+    </ul>
+    <h4>Selector de hijos descendientes</h4>
+    <ul class="hijos-descendientes">
+      <li><b>Primavera</b></li>
+      <li><b>Verano</b></li>
+      <li><b>Otoño</b></li>
+      <li><b>Invierno</b></li>
+    </ul>
+    <a href="index.html#temario-css">☝️</a>
+  </article>
+  <hr>
 </body>
 </html>
