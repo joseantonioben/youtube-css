@@ -57,3 +57,30 @@ p {
 .hijos-directos > li {
   background-color: thistle;
 }
+
+.hijos-descendientes b {
+  background-color: thistle;
+}
+
+/* Los selectores de hermanos van a aplicar a los elementos que son hermanos y que estén por debajo del elemento de referencia */
+.hermanos-general ~ li {
+  background-color: thistle;
+}
+
+.hermanos-adyacentes + li {
+  background-color: thistle;
+}
+
+/* Selectores de atributos */
+.selectores-atributos a[href] {
+  color: orangered;
+}
+
+.selectores-atributos a[target="_blank"] {
+  font-weight: bold;
+}
+
+/* El comodían del * aplica el estilo si contiene la palabra en cuestión */
+.selectores-atributos a[href*="jonmircha"] {
+  font-size: 24px;
+}
