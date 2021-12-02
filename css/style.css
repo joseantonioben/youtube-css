@@ -92,5 +92,15 @@ p {
 
 /* El  comodín del $ aplica el estilo si contiene el texto en cuestión al final */
 .selectores-atributos a[href$=".com"] {
-  
+  background-color: black;
+}
+
+/* El comodín del ~ aplica el estilo si contiene el texto en cuestión en una lista separada por espacios */
+.selectores-atributos a[class~="cursos"] {
+  background-color: midnightblue;
+}
+
+/* El comodín del | aplica el estilo si contiene el texto en cuestión en una lista separada por espacios y que después del texto en cuestión venga un guión medio - */
+.selectores-atributos a[class|="menu"] {
+  font-style: italic;
 }
