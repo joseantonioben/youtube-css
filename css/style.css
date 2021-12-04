@@ -115,3 +115,55 @@ p {
 }
 
 /* Pseudoclases - Dan estilos dependiendo del contexto, posición o estado del elemento */
+
+.form-pseudoclases *:required {
+  border-color: yellow;
+}
+
+.form-pseudoclases *:valid {
+  border-color: green;
+}
+
+.form-pseudoclases *:invalid {
+  border-color: red;
+}
+
+.form-pseudoclases *:focus {
+  background-color: skyblue;
+}
+
+.form-pseudoclases *:disabled {
+  background-color: pink;
+}
+
+.menu-pseudoclases a:visited{
+  color: olive;
+}
+
+.menu-pseudoclases a:hover{
+  color: orange;
+}
+
+.p-pseudoclases:hover {
+  font-size: 20px;
+}
+
+#temario-css:target {
+  background-color: lightgreen;
+}
+
+.lista-pseudoclases li:first-child {
+  color: green;
+}
+
+.lista-pseudoclases li:last-child {
+  color: violet;
+}
+
+.lista-pseudoclases li:nth-child(3) {
+  color: navy;
+}
+
+.lista-pseudoclases li:nth-child(4n) {
+  font-size: 20px;
+}
