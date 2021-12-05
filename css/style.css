@@ -167,3 +167,15 @@ p {
 .lista-pseudoclases li:nth-child(4n) {
   font-size: 20px;
 }
+
+.lista-pseudoclases li:nth-child(3n+1) {
+  font-weight: bold;
+}
+
+.lista-pseudoclases li:nth-child(even) {
+  background-color: yellow;
+}
+
+.lista-pseudoclases li:nth-child(odd) {
+  background-color: orange;
+}
