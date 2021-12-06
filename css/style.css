@@ -179,3 +179,25 @@ p {
 .lista-pseudoclases li:nth-child(odd) {
   background-color: orange;
 }
+
+.articulo-pseudoclases p:first-of-type {
+  background-color: pink;
+}
+
+.articulo-pseudoclases p:last-of-type {
+  background-color: violet;
+}
+
+.articulo-pseudoclases p:nth-of-type(3) {
+  background-color: fuchsia;
+}
+
+.articulo-pseudoclases *:not(p) {
+  background-color: beige;
+}
+
+/* Pseudoelementos - Dan estilos a partes específicas de un elemento, se usa el :: para diferenciarlos de las pseudoclases */
+
+.saga-geminis::before {
+  content: "";
+}
