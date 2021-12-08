@@ -247,3 +247,29 @@ p {
   display: block;
   width: 300px;
 }
+
+/* La Herencia es la capacidad de un selector de obtener (heredar) los valores de sus ancestros más cercanos, para aplicarla se usa el valor inherit; si queremos evitarla podemos asignar otro valor o inicializar la propiedad en cuestión con el valor initial  */
+
+blockquote#cita-marco.cita-marco {
+  background-color: lightsteelblue;
+}
+
+blockquote {
+  background-color: burlywood;
+}
+
+#cita-marco {
+  background-color: lightgreen;
+}
+
+blockquote.cita-marco {
+  background-color: tomato;
+}
+
+.cita-marco {
+  background-color: cornflowerblue;
+}
+
+blockquote#cita-marco {
+  background-color: lightsalmon;
+}
