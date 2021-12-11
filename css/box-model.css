@@ -1,0 +1,8 @@
+/* Modelo de Caja: Es la forma en que CSS ve a los elementos HTML y ¿cómo los ve? como si fuesen cajas con las siguientes propiedades:
+    1- El contenido (content): El contenido (texto) del elemento HTML
+     */
+
+h1 {
+    border-width: 3px;
+    border-style: solid;
+}
