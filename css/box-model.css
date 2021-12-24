@@ -74,8 +74,10 @@ body {
 
 .caja-bloque {
   margin: 32px;
+  display: inline;
 }
 
 .caja-linea {
   margin: 48px;
+  display: block;
 }
