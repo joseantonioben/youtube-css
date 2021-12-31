@@ -87,3 +87,29 @@ body {
 .container-floats {
   background-color: cornflowerblue;
 }
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+/* Colapso de Márgenes Verticales */
+.margin-collapse {
+  background-color: skyblue;
+}
+
+.margin-collapse section {
+  border: thin solid black;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.margin-collapse span {
+  border: thin solid black;
+  display: inline-block;
+  margin-right: 16px;
+  margin-left: 16px;
+}
