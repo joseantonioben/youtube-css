@@ -1,0 +1,41 @@
+/* static: Es el valor por defecto, significa que el elemento respeta el flujo del documento HTML por lo que no se puede mover ni posicionar */
+
+.static {
+    background-color: yellow;
+    position: static;
+    top: 10px;
+    left: 10px;
+}
+
+/* relative: El elemento conserva sus dimensiones y posición original en el flujo del documento. Si se mueve toma como referencia su posición original */
+
+.relative {
+    background-color: turquoise;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    /* top: 50px;
+    left: 50px; */
+    bottom: 50px;
+    right: 50px;
+    top: -30px;
+    left: -10px;
+    top: 300px;
+    left: 50px;
+}
+
+/* absolute: El elemento pierde sus dimensiones y posición original en el flujo del documento. Si se mueve puede tomar como referente 2 elementos: 
+    1) El primer ancestro con posicionamiento relativo
+    2) Si no encuentra un ancestro relativo, se mueve respecto del documento HTML */
+
+.absolute {
+    background-color: tomato;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    /* top: 0;
+    left: 0; */
+    bottom: 0;
+    right: 0;
+    top: 100px;
+}
