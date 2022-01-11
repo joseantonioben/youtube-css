@@ -61,4 +61,17 @@
 
 .fixed {
     background-color: lightgreen;
+    position: fixed;
+    width: 300px;
+    height: 100px;
+    right: 20px;
+    bottom: 10px;
+    top: 30px;
+    left: 50px;
+}
+
+.sticky {
+    background-color: lightskyblue;
+    position: sticky;
+    top: 50px;
 }
